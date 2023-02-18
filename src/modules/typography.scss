@@ -1,23 +1,31 @@
-h1,
-h2 {
-  font-weight: 300;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Roboto+Mono:wght@400;700&display=swap');
+
+html {
+  font-family: "Montserrat", sans-serif;
+  font-size: $font-size;
+  font-weight: 500;
 }
 
-h3,
+h1,
+h2,
+h3 {
+  font-weight: 800;
+}
+
 h4,
 h5,
 h6 {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 h1 {
-  font-size: 3.2rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  font-size: 2.8rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5em;
 }
 
 h2 {
-  font-size: 2.6rem;
+  font-size: 2.5rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -26,10 +34,10 @@ p {
   margin-bottom: 1rem;
 }
 
-code {
-  font-family: "Ubuntu Mono", monospace;
-  font-size: 1.125rem;
-  background-color: $color-light-gray;
-  padding: 0.25rem 0.5rem;
-  border-radius: $box-border-radius;
-}
+// code {
+//   font-family: "Roboto Mono", monospace;
+//   font-size: 1.125rem;
+//   background-color: $color-light-gray;
+//   padding: 0.25rem 0.5rem;
+//   border-radius: $box-border-radius;
+// }
