@@ -1,2 +1,3 @@
-# kodim-design
-UI design for Kódím.cz ecosystem
+# Kodim Design
+
+UI design elements for the Kódím.cz ecosystem.

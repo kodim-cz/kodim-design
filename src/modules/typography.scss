@@ -1,0 +1,35 @@
+h1,
+h2 {
+  font-weight: 300;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 3.2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+code {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1.125rem;
+  background-color: $color-light-gray;
+  padding: 0.25rem 0.5rem;
+  border-radius: $box-border-radius;
+}

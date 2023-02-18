@@ -1,0 +1,23 @@
+@use "sass:map";
+
+$font-size: 16px;
+
+$palette-1: #e8eef7;
+
+$color-bg-main: $palette-1;
+
+$display-sizes: 'xs', 'sm', 'md', 'lg', 'xl';
+
+$display: (
+  'xs': 408px,
+  'sm': 576px,
+  'md': 768px,
+  'lg': 1008px,
+  'xl': 1200px,
+);
+
+@mixin breakpoint($size) {
+  @media (min-width: map.get($display, $size)) {
+    @content;
+  }
+}

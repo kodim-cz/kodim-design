@@ -1,0 +1,38 @@
+{
+  "name": "kodim-design",
+  "version": "0.0.0",
+  "description": "UI design for Kódím.cz ecosystem",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp",
+    "clean": "rimraf dist",
+    "build": "npm run clean && gulp build",
+    "demo": "live-server demo --mount=/dist:./dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kodim-cz/kodim-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kodim-cz/kodim-design/issues"
+  },
+  "homepage": "https://github.com/kodim-cz/kodim-design#readme",
+  "dependencies": {
+    "modern-css-reset": "^1.4.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "live-server": "^1.2.2",
+    "rimraf": "^4.1.2",
+    "sass": "^1.58.3"
+  }
+}
