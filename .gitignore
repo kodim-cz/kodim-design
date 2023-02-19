@@ -64,3 +64,4 @@ $RECYCLE.BIN/
 
 node_modules
 dist
+tmp

@@ -6,6 +6,19 @@
 
 .article-content {
   grid-area: content;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+
+  h1, h2, h3, h4, h5, h6, p, ul, ol, pre {
+    padding-left: $content-padding;
+    padding-right: $content-padding;
+  }
+
+  ul, ol {
+    padding-left: $content-padding + 2rem;
+    padding-right: $content-padding + 2rem;
+  }
 }
 
 .article-nav {

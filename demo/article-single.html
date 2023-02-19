@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="cs">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,17 +12,102 @@
 <body>
   <header>
     <div class="container-md header">
-      <div class="site-title">Site Title</div>
+      <div class="site-title">JavaScript for Beginners</div>
     </div>
   </header>
   <div class="container-md">
     <div class="panel">
       <div class="article-layout">
         <div class="article-content">
-          <h1>Article title</h1>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates eaque aspernatur velit atque, consequuntur inventore nemo natus consectetur aut optio ea eius debitis quasi officia, a at doloremque unde sunt labore. Autem, tempora esse distinctio odio debitis voluptates ipsa deleniti. Provident obcaecati assumenda voluptatibus delectus modi, minus possimus dolor eos, incidunt ipsam labore saepe expedita itaque aperiam eum sunt nisi vero aspernatur. Enim rem dignissimos commodi, molestiae eum assumenda incidunt aliquam aspernatur tenetur explicabo asperiores eos quo dolorum ab quas tempore doloribus eaque praesentium omnis. Voluptates odit necessitatibus totam minus molestiae at similique harum facilis, velit, est corrupti mollitia quod voluptatibus architecto nemo dolores, facere magnam earum temporibus error eligendi! Enim expedita maiores id quibusdam perspiciatis.
-          </p>
+          <h1>Introduction to JavaScript Programming</h1>
+          
+          <p>JavaScript is a popular programming language used in web development. It allows you to create dynamic web content, such as interactive forms, animations, and responsive user interfaces. In this lesson, we will cover some basics of JavaScript programming for beginners.</p>
+          
+          <h2>Basic Syntax</h2>
+          
+          <p>JavaScript code is typically placed within <code>&lt;script&gt;</code> tags in an HTML document. For example:</p>
+          
+          <pre><code class="!whitespace-pre hljs language-html"><span class="hljs-meta">&lt;!DOCTYPE <span class="hljs-keyword">html</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">html</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">title</span>&gt;</span>My Webpage<span class="hljs-tag">&lt;/<span class="hljs-name">title</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
+      <span class="hljs-comment">// JavaScript code goes here</span>
+    </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre>
+            
+          <p>JavaScript statements are terminated by a semicolon (;). For example:</p>
+          
+          <pre><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">var</span> x = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">var</span> y = <span class="hljs-number">20</span>;
+<span class="hljs-keyword">var</span> z = x + y;</code></pre>
+          
+          <h2>Variables</h2>
+          
+          <p>Variables are used to store data in JavaScript. You can declare a variable using the <code>var</code> keyword, followed by the variable name. For example:</p>
+          
+          <pre><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">var</span> message = <span class="hljs-string">"Hello, world!"</span>;</code></pre>
+          
+          <p>You can also declare multiple variables in a single statement, like this:</p>
+          
+          <pre><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">var</span> x = <span class="hljs-number">10</span>, y = <span class="hljs-number">20</span>, z = x + y;</code></pre>
+          
+          <h2>Data Types</h2>
+          
+          <p>JavaScript supports several data types, including:</p>
+          
+          <ul>
+            <li>Numbers (integers and decimals)</li>
+            <li>Strings (text)</li>
+            <li>Booleans (true or false)</li>
+            <li>Arrays (ordered lists of values)</li>
+            <li>Objects (collections of key-value pairs)</li>
+          </ul>
+          
+          <p>Here are some examples of how to create variables with these data types:</p>
+          
+          <pre><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">var</span> age = <span class="hljs-number">27</span>; <span class="hljs-comment">// number</span>
+<span class="hljs-keyword">var</span> name = <span class="hljs-string">"John"</span>; <span class="hljs-comment">// string</span>
+<span class="hljs-keyword">var</span> isStudent = <span class="hljs-literal">true</span>; <span class="hljs-comment">// boolean</span>
+<span class="hljs-keyword">var</span> numbers = [<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>, <span class="hljs-number">5</span>]; <span class="hljs-comment">// array</span>
+<span class="hljs-keyword">var</span> person = { <span class="hljs-attr">name</span>: <span class="hljs-string">"John"</span>, <span class="hljs-attr">age</span>: <span class="hljs-number">27</span> }; <span class="hljs-comment">// object</span></code></pre>
+          
+          <h2>Operators</h2>
+          
+          <p>Operators are used to perform operations on variables and values. Here are some common operators in JavaScript:</p>
+          
+          <ul>
+            <li>Arithmetic operators, such as <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>, and <code>%</code> (remainder)</li>
+            <li>Comparison operators, such as <code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, and <code>&gt;=</code></li>
+            <li>Logical operators, such as <code>&amp;&amp;</code> (and), <code>||</code> (or), and <code>!</code> (not)</li>
+            <li>Assignment operators, such as <code>=</code>, <code>+=</code>, <code>-=</code>, <code>*=</code>, <code>/=</code>, and <code>%=</code></li>
+          </ul>
+          
+          <p>Here are some examples of how to use operators:</p>
+          
+          <pre><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">var</span> x = <span class="hljs-number">10</span>;
+<span class="hljs-keyword">var</span> y = <span class="hljs-number">20</span>;
+<span class="hljs-keyword">var</span> z = x + y; <span class="hljs-comment">// z = 30</span>
+<span class="hljs-keyword">var</span> isGreaterThan = x &gt; y; <span class="hljs-comment">// isGreaterThan = false</span>
+<span class="hljs-keyword">var</span> isTrue = <span class="hljs-literal">true</span> &amp;&amp; <span class="hljs-literal">false</span>; <span class="hljs-comment">// isTrue = false</span>
+x += <span class="hljs-number">5</span>; <span class="hljs-comment">// x = 15</span></code></pre>
+          
+          <h2>Functions</h2>
+          
+          <p>Functions are reusable blocks of code that can be called from other parts of your program. You can define a function using the <code>function</code> keyword, followed by the function name and its parameters (if any). For example:</p>
+          
+          <pre><code class="!whitespace-pre hljs language-javascript"><span class="hljs-keyword">function</span> <span class="hljs-title function_">sayHello</span>(<span class="hljs-params">name</span>) {
+<span class="hljs-variable language_">console</span>.<span class="hljs-title function_">log</span>(<span class="hljs-string">"Hello, "</span> + name + <span class="hljs-string">"!"</span>);
+}
+
+<span class="hljs-title function_">sayHello</span>(<span class="hljs-string">"John"</span>); <span class="hljs-comment">// prints "Hello, John!"</span></code></pre>
+          
+          <h2>Conclusion</h2>
+
+          <p>This is just a brief overview of the basics of JavaScript programming. As you continue to learn, you will encounter more advanced concepts, such as control structures, loops, and event handling. However, understanding these fundamental concepts is a great first step toward becoming a proficient JavaScript programmer.</p></div>
         </div>
       </div>      
     </div>

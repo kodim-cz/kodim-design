@@ -19,13 +19,14 @@ h6 {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
+  line-height: 1.1;
   margin-top: 2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -34,10 +35,29 @@ p {
   margin-bottom: 1rem;
 }
 
-// code {
-//   font-family: "Roboto Mono", monospace;
-//   font-size: 1.125rem;
-//   background-color: $color-light-gray;
-//   padding: 0.25rem 0.5rem;
-//   border-radius: $box-border-radius;
-// }
+code {
+  font-family: "Roboto Mono", monospace;
+  background-color: $color-code-emph;
+  padding: 3px 5px;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: $color-bg-code;
+  color: white;
+  color-scheme: dark;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  overflow-x: auto;
+
+  code {
+    background-color: transparent;
+    padding: 0;
+  }
+}
+
+li {
+  margin-bottom: 0.25rem;
+}

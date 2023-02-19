@@ -1,7 +1,6 @@
 @mixin panel {
   background-color: white;
   border-radius: $border-radius;
-  padding: $content-padding;
   box-shadow: $box-shadow;
 }
 
