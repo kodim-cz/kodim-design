@@ -1,6 +1,6 @@
 {
   "name": "@kodim/design",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UI design for Kódím.cz ecosystem",
   "main": "index.js",
   "type": "module",
