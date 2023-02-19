@@ -10,15 +10,18 @@ body {
   margin-right: auto;
 }
 
-.container-xl {
+.container {
   @include container;
   max-width: map.get($display, 'xl');
 }
 
-.container-md {
-  @include container;
-  max-width: map.get($display, 'md');
+@each $size in $display-sizes {
+  .container-#{$size} {
+    @include container;
+    max-width: map.get($display, $size);
+  }
 }
+
 
 .header {
   padding: 1rem $content-padding;
