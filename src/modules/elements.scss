@@ -1,15 +1,10 @@
 @mixin panel {
   background-color: white;
   border-radius: $border-radius;
-  padding: 2rem;
+  padding: $content-padding;
   box-shadow: $box-shadow;
 }
 
 .panel {
   @include panel;
-}
-
-.main-panel {
-  @include panel;
-  margin-top: 1rem;
 }

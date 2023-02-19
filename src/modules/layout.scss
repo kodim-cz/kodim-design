@@ -10,7 +10,20 @@ body {
   margin-right: auto;
 }
 
-.container {
+.container-xl {
   @include container;
   max-width: map.get($display, 'xl');
+}
+
+.container-md {
+  @include container;
+  max-width: map.get($display, 'md');
+}
+
+.header {
+  padding: 1rem $content-padding;
+}
+
+.site-title {
+  font-size: 1.5rem;
 }

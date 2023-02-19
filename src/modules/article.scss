@@ -1,0 +1,22 @@
+.article-layout {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-areas: "aside-left content aside-right"
+}
+
+.article-content {
+  grid-area: content;
+}
+
+.article-nav {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  li {
+    margin-bottom: 0.25rem;
+  }
+}
+
