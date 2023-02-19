@@ -1,5 +1,5 @@
 {
-  "name": "kodim-design",
+  "name": "@kodim/design",
   "version": "0.0.0",
   "description": "UI design for Kódím.cz ecosystem",
   "main": "index.js",
@@ -34,5 +34,10 @@
     "live-server": "^1.2.2",
     "rimraf": "^4.1.2",
     "sass": "^1.58.3"
-  }
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "README.md"
+  ]
 }
